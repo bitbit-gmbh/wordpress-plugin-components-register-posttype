@@ -1,0 +1,25 @@
+{
+  "name": "web-dev-media/wordpress-plugin-components-register-posttype",
+  "description": "",
+  "license": "GPL-2.0",
+  "repositories": [],
+  "require": {
+    "php": "^7.3 || ~8.0.0 || ~8.1.0",
+    "laminas/laminas-config": "^3.7",
+    "php-di/php-di": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WDM\\PluginComponents\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "composer/installers": "~1.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}

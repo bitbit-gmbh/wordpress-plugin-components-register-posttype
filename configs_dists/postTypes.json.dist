@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Foo Posts",
+    "singular_name": "Foo Post",
+    "slug": "foo-posts",
+    "supports": [
+      "title"
+    ]
+  },
+  {
+    "name": "Bar Posts",
+    "singular_name": "Bar Post",
+    "slug": "bar-posts"
+  }
+]
+
+
